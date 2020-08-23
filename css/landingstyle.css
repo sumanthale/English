@@ -1,13 +1,11 @@
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background: #eee;
   height: auto;
 }
-
-
-
-
 
 img {
   display: block;
@@ -22,8 +20,8 @@ main {
 }
 
 #landing {
-  background:#fff;
-  
+  background: #fff;
+  margin-top: 57px;
 }
 
 #landing-text {
@@ -35,6 +33,7 @@ main {
   text-align: center;
   padding-right: 1rem;
   padding-left: 1rem;
+  
 }
 
 #landing-text h3 {
@@ -50,7 +49,6 @@ main {
   flex: 0 1 60vw;
   margin: 0;
 }
-
 
 #header {
   padding: 1.5rem;
